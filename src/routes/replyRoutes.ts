@@ -1,5 +1,5 @@
 import express from "express";
-import * as replyController from "../controllers/replyController.ts"
+import * as replyController from "../controllers/replyController"
 
 const router = express.Router();
 

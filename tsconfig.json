@@ -2,8 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "ESNext",
-    "allowImportingTsExtensions": true,
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -11,10 +10,10 @@
     "resolveJsonModule": true,
     "outDir": "dist",
     "rootDir": "src",
-    "noEmitOnError": true,
-
+    "noEmitOnError": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
+
 

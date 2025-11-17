@@ -1,7 +1,7 @@
 import express from 'express';
-import classDiscussionRoutes from "./routes/classDiscussionRoutes.ts"
-import commentRoutes from "./routes/commentRoutes.ts";
-import replyRoutes from "./routes/replyRoutes.ts";
+import classDiscussionRoutes from "./routes/classDiscussionRoutes"
+import commentRoutes from "./routes/commentRoutes";
+import replyRoutes from "./routes/replyRoutes";
 import cors from "cors";
 
 const app = express();

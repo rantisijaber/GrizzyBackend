@@ -1,5 +1,5 @@
 import express from 'express';
-import * as classDiscussionController from '../controllers/classDiscussionController.ts';
+import * as classDiscussionController from '../controllers/classDiscussionController';
 
 
 const router = express.Router();

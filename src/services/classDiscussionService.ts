@@ -1,5 +1,5 @@
-import type {ClassDiscussion, Comment, Reply} from "../types.ts";
-import { supabase } from "../supabaseClient.ts";
+import type {ClassDiscussion, Comment, Reply} from "../types";
+import { supabase } from "../supabaseClient";
 
 export const getAllDiscussions = async (): Promise<ClassDiscussion[]> => {
     const { data, error } = await supabase

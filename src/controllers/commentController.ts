@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import * as commentService from '../services/commentService.ts';
+import * as commentService from '../services/commentService';
 
 
 export const createComment = async (req: Request, res: Response): Promise<Response> => {
