@@ -1,5 +1,5 @@
 import type { Reply } from "../types";
-import { supabase} from "../supabaseClient";
+import { supabase} from "../supabaseClient.js";
 
 export const createReply = async (reply: Reply): Promise<Reply> => {
     const { data, error } = await supabase.from("replies").insert([reply]).select();

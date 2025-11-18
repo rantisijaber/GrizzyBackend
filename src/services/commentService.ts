@@ -1,5 +1,5 @@
 import type { Comment } from "../types"
-import { supabase} from "../supabaseClient";
+import { supabase} from "../supabaseClient.js";
 
 export const createComment = async (comment: Omit<Comment, "replies">): Promise<Comment> => {
     const { data, error } = await supabase.from("comments").insert([comment]).select();

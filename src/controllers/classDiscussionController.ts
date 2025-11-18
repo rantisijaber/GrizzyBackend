@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import * as classDiscussionService from "../services/classDiscussionService"
+import * as classDiscussionService from "../services/classDiscussionService.js"
 
 export const getDiscussions = async (req: Request, res: Response): Promise<Response> => {
     try {
